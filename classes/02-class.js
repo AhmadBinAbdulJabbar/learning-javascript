@@ -72,3 +72,41 @@ console.log("e < f is ", e < f);
 console.log("e >= f is ", e >= f);
 console.log("e <= f is ", e <= f);
 
+// string operator
+// +
+let varString = "hello";
+varString = "hello" + 99.99;
+
+console.log(varString);
+let numPlusString = "5" + 5; // "5" + 5 -> "5" + "5" -> "55"
+console.log(numPlusString);
+
+// logical operators
+// && (AND), || (OR), ! (NOT)
+
+// &&
+// T && T = T
+// T && F = F
+// F && T = F
+// F && F = F
+
+// ||
+// T || T = T
+// T || F = T
+// F || T = T
+// F || F = F
+
+// ! 
+// !true = false
+// !false = true
+
+let g = 5;
+let h = 6;
+console.log("g = ", g);
+console.log("h = ", h);
+console.log("g < h && g === 5", g < h && g === 5); // true
+console.log("g > h && g === 5", g > h && g === 5); // false
+
+console.log("g > h || g === 5", g < h && g === 5);  // true
+console.log("g > h || g === 6", g < h && g === 6);  // false
+
