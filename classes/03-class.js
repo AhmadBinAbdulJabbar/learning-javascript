@@ -97,39 +97,49 @@
 //         break;
 // } 
 
-let firstOperand = prompt("Enter first operand: ");
-// firstOperand = Number.parseInt(firstOperand);
+// let firstOperand = prompt("Enter first operand: ");
+// // firstOperand = Number.parseInt(firstOperand);
 
 
-let operatorInput = prompt("Enter operator: ");
+// let operatorInput = prompt("Enter operator: ");
 
-let secondOperand = prompt("Enter second operand: ");
-// secondOperand = Number.parseInt(secondOperand);
-
-
-switch (operatorInput) {
-    case '+':
-        alert("answer = " + (firstOperand+secondOperand));
-        break;
-
-    case '-':
-        alert("answer = " + (firstOperand-secondOperand));
-        break;
-
-    case '*':
-        alert("answer = " + (firstOperand*secondOperand));
-        break;
-
-    case '/':
-        alert("answer = " + (firstOperand/secondOperand));
-        break;
-
-    default:
-        alert("Enter operator +, -, *, / only.");
-        break;
-}
+// let secondOperand = prompt("Enter second operand: ");
+// // secondOperand = Number.parseInt(secondOperand);
 
 
-// basic loops
+// switch (operatorInput) {
+//     case '+':
+//         alert("answer = " + (firstOperand+secondOperand));
+//         break;
+
+//     case '-':
+//         alert("answer = " + (firstOperand-secondOperand));
+//         break;
+
+//     case '*':
+//         alert("answer = " + (firstOperand*secondOperand));
+//         break;
+
+//     case '/':
+//         alert("answer = " + (firstOperand/secondOperand));
+//         break;
+
+//     default:
+//         alert("Enter operator +, -, *, / only.");
+//         break;
+// }
 
 
+// ?: 
+// if-else short form
+
+// condition ? true case : false case;
+let b = 60;
+let c = 100;
+
+console.log(b > c ? b : c);
+
+b > c ? console.log("B is greater than c") : console.log("c is greater than b");
+
+let a = b < c ? b : c;
+console.log(a);
