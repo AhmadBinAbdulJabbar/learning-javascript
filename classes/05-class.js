@@ -77,22 +77,5 @@ console.log("Value" + var1 + " is correct");
 console.log(`value of variable is ${var1} is correct`);
 console.log(`expression can also be used in ${100 - 2 + 23 /34}`);
 
-// string methods
 
-// String length
-// String slice()
-// String substring()
-// String substr()
-// String replace()
-// String replaceAll()
-// String toUpperCase()
-// String toLowerCase()
-// String concat()
-// String trim()
-// String trimStart()
-// String trimEnd()
-// String padStart()
-// String padEnd()
-// String charAt()
-// String charCodeAt()
-// String split()
+
